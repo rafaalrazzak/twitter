@@ -143,7 +143,7 @@ export function MobileSidebarModal({
               imgClassName='rounded-md'
               src={coverPhotoURL}
               alt={name}
-              layout='fill'
+              fill
             />
           ) : (
             <div className='h-full rounded-md bg-light-line-reply dark:bg-dark-line-reply' />

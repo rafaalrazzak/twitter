@@ -39,7 +39,7 @@ export function UserHomeAvatar({
             imgClassName='rounded-full'
             src={profileData.src}
             alt={profileData.alt}
-            layout='fill'
+            fill
             key={profileData.src}
           />
         ) : (

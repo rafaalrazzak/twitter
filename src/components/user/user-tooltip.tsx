@@ -67,7 +67,7 @@ export function UserTooltip({
                    opacity-0 [transition:visibility_0ms_ease_400ms,opacity_200ms_ease_200ms] group-hover:visible 
                    group-hover:opacity-100 group-hover:delay-500'
       >
-        <div className='flex flex-col gap-3 p-4'>
+        <div className='flex flex-col gap-3 p-4 mt-4'>
           <div className='flex flex-col gap-2'>
             <div className='-mx-4 -mt-4'>
               {coverPhotoURL ? (

@@ -16,7 +16,7 @@ type NextImageProps = {
 
 /**
  *
- * @description Must set width and height, if not add layout='fill'
+ * @description Must set width and height, if not add fill
  * @param useSkeleton add background with pulse animation, don't use it if image is transparent
  */
 export function NextImage({
@@ -53,7 +53,6 @@ export function NextImage({
         height={height}
         alt={alt}
         onLoadingComplete={handleLoad}
-        layout='responsive'
         {...rest}
       />
       {children}

@@ -24,7 +24,7 @@ export function UserHomeCover({ coverData }: UserHomeCoverProps): JSX.Element {
         >
           <NextImage
             useSkeleton
-            layout='fill'
+            fill
             imgClassName='object-cover'
             src={coverData.src}
             alt={coverData.alt}

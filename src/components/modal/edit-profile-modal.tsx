@@ -102,7 +102,7 @@ export function EditProfileModal({
                             group-focus-within:brightness-75'
               src={coverPhotoURL}
               alt={name}
-              layout='fill'
+              fill
             />
           ) : (
             <div className='h-full bg-light-line-reply dark:bg-dark-line-reply' />
@@ -154,7 +154,7 @@ export function EditProfileModal({
                               group-focus-within:brightness-75'
                 src={photoURL}
                 alt={name}
-                layout='fill'
+                fill
               />
               <Button
                 className='group/inner absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2

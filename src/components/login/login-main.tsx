@@ -14,7 +14,7 @@ export function LoginMain(): JSX.Element {
           blurClassName='bg-accent-blue'
           src='/assets/twitter-banner.png'
           alt='Twitter banner'
-          layout='fill'
+          fill
           useSkeleton
         />
         <i className='absolute'>

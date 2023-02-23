@@ -134,10 +134,10 @@ export function ImagePreview({
                   : 'rounded-2xl'
               )}
               previewCount={previewCount}
-              layout='fill'
               src={src}
               alt={alt}
               useSkeleton={isTweet}
+              fill
             />
             {removeImage && (
               <Button
