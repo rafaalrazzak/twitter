@@ -193,7 +193,8 @@ export function UserEditProfile({ hide }: UserEditProfileProps): JSX.Element {
     ctrlKey
   }: KeyboardEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
     if (ctrlKey && key === 'Enter' && !inputNameError) {
-      target.blur();
+      const inputTarget = target as HTMLInputElement | HTMLTextAreaElement; // narrow the type of target
+      inputTarget.blur();
       void updateData();
     }
   };
